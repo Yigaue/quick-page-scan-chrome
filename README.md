@@ -1,10 +1,10 @@
-# Quick Scan Page - SEO & Accessibility Analyzer Chrome Extension
+# Quick Page Scan - SEO & Accessibility Analyzer Chrome Extension
 
-**Empower Your Web: Smarter SEO & Accessibility Insights at Your Fingertips**
+**Smarter SEO and accessibility insights without opening your developer tool.**
 
 ## Description
 
-The **Quick Scan Page** is a powerful Chrome extension designed to provide actionable insights for improving the SEO and accessibility of web pages. Whether you're a developer, content creator, or SEO specialist, this tool helps you identify issues and offers AI-powered suggestions for optimization.
+The **Quick Page Scan** is a powerful Chrome extension designed to provide actionable insights for improving the SEO and accessibility of web pages. Whether you're a developer, content creator, or SEO specialist, this tool helps you identify issues and offers AI-powered suggestions for optimization.
 
 ## Features
 
