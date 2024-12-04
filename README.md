@@ -9,11 +9,13 @@ The **Quick Scan Page** is a powerful Chrome extension designed to provide actio
 ## Features
 
 ### 🚀 **Static Analysis**
+
 - Analyze meta tags, images, links, headings, and other HTML elements.
 - Identify missing or improperly configured attributes (e.g., `alt`, `title`, `lang`).
 - Receive detailed suggestions for improving on-page SEO and accessibility.
 
 ### 🤖 **AI-Powered Suggestions**
+
 - Leverage AI to generate tailored recommendations for enhancing SEO and accessibility.
 - Categorized insights:
   - **SEO Improvements**: Optimize tags, images, links, and headings.
@@ -21,16 +23,19 @@ The **Quick Scan Page** is a powerful Chrome extension designed to provide actio
   - **Performance Tips**: General best practices for a better user experience.
 
 ### 📊 **Intuitive Interface**
+
 - Clean and user-friendly design with side-by-side analysis and suggestions.
 - Easily toggle between **static analysis** and **AI suggestions**.
 - Highlight specific issues with detailed context.
 
 ### 🖱️ **Seamless Integration**
+
 - Open the extension directly from the Chrome side panel.
 - Automatically close the side panel when navigating away.
 - Clear suggestions or refresh the analysis with a single click.
 
 ### ⚡ **Additional Features**
+
 - Horizontal scrolling for detailed analysis.
 - Loading indicators while fetching AI suggestions.
 - Customizable configurations for API endpoints and prompts.
@@ -55,8 +60,8 @@ The **Quick Scan Page** is a powerful Chrome extension designed to provide actio
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/seo-accessibility-analyzer.git
-   cd seo-accessibility-analyzer
+   git clone https://github.com/Yigaue/quick-page-scan-chrome.git
+   cd quick-page-scan-chrome
 
 2. Load the extension into Chrome:
 
