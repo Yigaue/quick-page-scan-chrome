@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Analysis Results</title>
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+  <div id="issuesContainer">
+    <h1>SEO & Accessibility Analysis</h1>
+    <div class="score-container">
+      <div class="circle">
+        <span class="score-value" id="score">0</span>
+      </div>
+    </div>
+    <p id="page-url"></p>
+    <p id="issue-count">Loading...</p>
+
+
+    <div class="flex-container-wrapper">
+      <div class="flex-container" id="scrollableContainer">
+        <div class="static-analysis">
+          <div id="issues">Loading...</div>
+        </div>
+        <div class="ai-suggestions hidden" id="aiSuggestionsContainer">
+          <h2>
+            AI Suggestions
+            <span class="loader hide" id="aiLoader"></span>
+          </h2>
+          <div class="aiContent">
+            <ul id="ai-suggestions-list"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div  class="btns-div">
+    <button id="downloadPdfBtn" class="defaultBtn" title="download as PDF"> ⬇️ PDF</button>
+    <div class="toggle-container">
+      <label class="toggle-switch">
+        <input type="checkbox" id="toggleMode">
+        <span class="slider"></span>
+      </label>
+      <span id="toggleLabel">Less</span>
+    </div>
+    <div>
+      <button id="ai-suggestions-btn" class="defaultBtn">AI Suggestions</button>
+    </div>
+
+    <div>
+      <button id="reset-ai-btn" class="defaultBtn">Reset AI</button>
+    </div>
+  </div>
+</body>
+
+<script src="/libs/jspdf.umd.min.js"></script>
+<script src="./sidePanel.js" type="module"></script>
+<script src="./content.js"></script>
+</html>

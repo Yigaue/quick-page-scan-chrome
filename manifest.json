@@ -1,0 +1,46 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Page Scan",
+  "version": "1.0",
+  "description": "Analyzes HTML for accessibility and SEO recommendations",
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "scripting",
+    "sidePanel",
+    "tabs",
+    "storage"
+  ],
+  "side_panel": {
+    "default_path": "src/sidePanel.html"
+  },
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "icons": {
+    "16": "assets/icons/icon16.png",
+    "48": "assets/icons/icon48.png",
+    "128": "assets/icons/icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "assets/icons/icon16.png",
+      "48": "assets/icons/icon48.png",
+      "128": "assets/icons/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content.js"]
+    }
+  ],
+  "web_accessible_resources":[
+  {
+    "matches": ["<all_urls>"],
+    "resources": ["assets/images/app.png", "libs/jspdf.umd.min.js"]
+  }
+  ]
+}
