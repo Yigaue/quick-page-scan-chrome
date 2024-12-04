@@ -31,7 +31,6 @@ The **Quick Page Scan** is a powerful Chrome extension designed to provide actio
 ### 🖱️ **Seamless Integration**
 
 - Open the extension directly from the Chrome side panel.
-- Automatically close the side panel when navigating away.
 - Clear suggestions or refresh the analysis with a single click.
 
 ### ⚡ **Additional Features**
@@ -76,12 +75,8 @@ The **Quick Page Scan** is a powerful Chrome extension designed to provide actio
   ```javascript
    export const apiKey = "your-api-key-here"
   ```
-  
-  ;
-  Start using the extension!
 
-
-4. Start using the extension!
+1. Start using the extension!
 
 
 ## Screenshots
@@ -99,6 +94,7 @@ The **Quick Page Scan** is a powerful Chrome extension designed to provide actio
   Advanced performance analysis.
   Integration with popular CMS platforms.
   Exportable PDF reports for analysis results.
+  Bug fixes.
 
 
 ## Contributing
